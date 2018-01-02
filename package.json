@@ -1,0 +1,22 @@
+{
+  "name": "fez-ershou-vue",
+  "version": "",
+  "description": "",
+  "keywords": "",
+  "homepage": "",
+  "license": "MIT",
+  "author": "",
+  "main": "",
+  "scripts": {},
+  "directories": {},
+  "dependencies": {},
+  "devDependencies": {
+    "fezmock": "^1.2.1"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": "./shim.js"
+}
