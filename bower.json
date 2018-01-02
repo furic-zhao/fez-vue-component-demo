@@ -1,6 +1,6 @@
 {
-  "name": "fez-ershou-vue",
-  "description": "使用Bower管理fez-ershou-vue第三方框架库",
+  "name": "fez-vue-component-demo",
+  "description": "使用Bower管理第三方框架库",
   "main": "",
   "license": "MIT",
   "homepage": "",
