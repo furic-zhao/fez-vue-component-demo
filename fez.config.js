@@ -6,8 +6,7 @@
 export default {
   cssCompiler: "scss",
   useInject: {
-    bower: {
-      available: true,
+    vendor: {
       js: [{
         target: 'vendor-vue-axios.js',
         contain: ['**/vue.js', '**/axios.js']
@@ -15,9 +14,6 @@ export default {
         target: 'vendor-jquery.js',
         contain: ['**/jquery.js']
       }]
-    },
-    lib: {
-      available: true
     }
   },
   browserify: {
